@@ -29,10 +29,6 @@ This function displays the Information Values  by the levels of an attribute
 
 data("German_Credit")
 
-library(dplyr)
-
-# Create an empty list
-
 l<-list()
 
 # Call the function as follows

@@ -27,10 +27,6 @@ This function displays the Weight of Evidence of the levels of an attribute.
 
 data("German_Credit")
 
-library(dplyr)
-
-library(lazyeval)
-
 displayWOE(German_Credit,col="Credit_History",resp="Good_Bad")
 
 }

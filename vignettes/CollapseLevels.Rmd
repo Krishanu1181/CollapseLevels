@@ -54,9 +54,6 @@ We will explore the levels of the attribute "Credit_History" in the German_Gredi
 
 data("German_Credit")
 
-# library dplyr must be loaded
-
-library(dplyr)
 # Create an empty list to hold the data structures returned by numericToCategorical
 
 l<-list()
@@ -96,8 +93,6 @@ This functions categorizes a numeric attribute.
 We will categorize the numeric attribute "Duration" in the German_Gredit data set
 
 ```{r}
-# Library dplyr must be loaded
-library(dplyr)
 # Create an empty list to hold the data structures returned by numericToCategorical
 l<-list()
 
@@ -148,8 +143,6 @@ Similarly levels [12,15), and [18,24) may be combined.
 This function displays the Information Values ( not level wise ) for all the attributes
 ```{r}
 
-# Library dplyr must be loaded
-library(dplyr)
 # Create an empty data frame 
 l<-list()
 
@@ -180,8 +173,6 @@ This information is displayed for all attributes in the data set
 
 ```{r}
 
-# Library dplyr must be loaded
-library(dplyr)
 # Create an empty list to hold the data structures returned by IVCalc function
 l<-list()
 
@@ -212,11 +203,6 @@ l$Credit_History
 This function displays the Weight of Evidence of the levels of an attribute.
 ```{r}
 
-# Library dplyr and lazyeval must be loaded
-library(dplyr)
-library(lazyeval)
-
-
 # dset holds the data set
 # German_Credit is the data set
 # col specifies the name of the variable for which we want to display the Weight of Evidence values
@@ -242,11 +228,6 @@ This function displays the response percentages  of the levels of an attribute.
 
 ```{r}
 
-# Library dplyr and lazyeval must be loaded
-library(dplyr)
-library(lazyeval)
-
-
 # dset holds the data set
 # German_Credit is the data set
 # col specifies the name of the variable for which we want to display the response percents
@@ -270,11 +251,6 @@ displayResponseRatebyLevels(German_Credit,col="Account_Balance",resp="Good_Bad")
 
 This function displays the Information Values  of the levels of an attribute.
 ```{r}
-
-# Library dplyr and lazyeval must be loaded
-library(dplyr)
-library(lazyeval)
-
 
 # dset holds the data set
 # German_Credit is the data set

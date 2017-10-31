@@ -21,9 +21,6 @@
 #'
 #' data("German_Credit")
 #'
-#' library(dplyr)
-#' library(magrittr)
-#'
 #' # Create an empty list
 #'
 #' l<-list()

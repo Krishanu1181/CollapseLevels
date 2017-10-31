@@ -28,10 +28,6 @@ This function displays the Information Values of all the attributes in the data 
 
 data("German_Credit")
 
-library(dplyr)
-
-# Create an empty list
-
 d<-data.frame()
 
 # Call the function as follows

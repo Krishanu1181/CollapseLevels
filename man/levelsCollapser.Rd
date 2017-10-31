@@ -27,8 +27,6 @@ This function displays the response rates by the levels of an attribute
 
 data("German_Credit")
 
-library(dplyr)
-
 # Create an empty list
 
 l<-list()

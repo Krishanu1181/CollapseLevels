@@ -21,10 +21,6 @@
 #'
 #' data("German_Credit")
 #'
-#' library(dplyr)
-#'
-#' # Create an empty list
-#'
 #' l<-list()
 #'
 #' # Call the function as follows

@@ -20,10 +20,6 @@
 #'
 #' data("German_Credit")
 #'
-#' library(dplyr)
-#'
-#' # Create an empty list
-#'
 #' d<-data.frame()
 #'
 #' # Call the function as follows

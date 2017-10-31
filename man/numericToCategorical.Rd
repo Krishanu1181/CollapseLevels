@@ -31,9 +31,6 @@ This function categorizes a numerical variable by binning
 
 data("German_Credit")
 
-library(dplyr)
-library(magrittr)
-
 # Create an empty list
 
 l<-list()

@@ -28,10 +28,6 @@ This function displays the response percents  of the levels of an attribute.
 
 data("German_Credit")
 
-library(dplyr)
-
-library(lazyeval)
-
 displayResponseRatebyLevels(German_Credit,col="Credit_History",resp="Good_Bad")
 
 }

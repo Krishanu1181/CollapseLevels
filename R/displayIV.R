@@ -22,10 +22,6 @@
 #'
 #' data("German_Credit")
 #'
-#' library(dplyr)
-#'
-#' library(lazyeval)
-#'
 #' displayIV(German_Credit,col="Credit_History",resp="Good_Bad")
 #'
 #' @export

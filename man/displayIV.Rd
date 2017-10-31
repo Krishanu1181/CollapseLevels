@@ -28,10 +28,6 @@ This function displays the Information Values  of the levels of an attribute.
 
 data("German_Credit")
 
-library(dplyr)
-
-library(lazyeval)
-
 displayIV(German_Credit,col="Credit_History",resp="Good_Bad")
 
 }
