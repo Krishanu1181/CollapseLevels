@@ -13,10 +13,10 @@ Description: An update to the previous version ( 0.1.0 ) of the package.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.0
 Imports: dplyr,lazyeval,
         ggplot2
-Depends:magrittr        
+Depends: magrittr        
 Suggests: knitr,
     rmarkdown
 VignetteBuilder: knitr
